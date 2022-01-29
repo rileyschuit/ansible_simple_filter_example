@@ -1,0 +1,8 @@
+---
+- name: Organize terrible list
+  set_fact:
+    good_list: "{{ terrible_list | unique_things }}"
+
+- name: show me the good_list
+  debug:
+    msg: "{{ good_list }}"

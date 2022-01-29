@@ -1,0 +1,15 @@
+---
+- name: Simple filter example
+  hosts: all
+  gather_facts: True
+  connection: local
+
+  vars:
+    terrible_list:
+      - thing 1
+      - thing 2
+      - thing 2
+      - thing 3
+
+  roles:
+    - simple_filter_example

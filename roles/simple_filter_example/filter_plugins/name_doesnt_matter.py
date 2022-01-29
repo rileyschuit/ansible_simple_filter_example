@@ -1,4 +1,6 @@
 #!/usr/bin/python
+# https://docs.ansible.com/ansible/latest/dev_guide/developing_plugins.html#developing-filter-plugins
+
 import json
 import os
 
